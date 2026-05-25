@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+venv/
+.env
+
+# Node
+node_modules/
+.next/
+out/
+
+# Hardhat
+backend/hardhat_workspace/artifacts/
+backend/hardhat_workspace/cache/
+backend/hardhat_workspace/node_modules/
+backend/hardhat_workspace/session_*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env.local
+.env.production
+
+# Build
+*.tsbuildinfo
