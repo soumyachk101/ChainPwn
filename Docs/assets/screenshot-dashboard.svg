@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="280" viewBox="0 0 400 280">
+  <rect width="400" height="280" fill="#0d1117" rx="8"/>
+  <!-- Nav bar -->
+  <rect x="0" y="0" width="400" height="35" fill="#161b22" rx="8"/>
+  <rect x="0" y="25" width="400" height="10" fill="#161b22"/>
+  <text x="20" y="22" fill="#ff4757" font-family="sans-serif" font-size="12" font-weight="bold">VulnForge</text>
+  <text x="320" y="22" fill="#8b949e" font-family="sans-serif" font-size="10">Dashboard</text>
+  <text x="370" y="22" fill="#8b949e" font-family="sans-serif" font-size="10">API</text>
+  <!-- Editor panel -->
+  <rect x="10" y="45" width="200" height="225" fill="#161b22" stroke="#30363d" rx="4"/>
+  <rect x="10" y="45" width="200" height="20" fill="#21262d" rx="4"/>
+  <rect x="10" y="55" width="200" height="10" fill="#21262d"/>
+  <text x="20" y="59" fill="#8b949e" font-family="monospace" font-size="8">EtherStore.sol</text>
+  <line x1="35" y1="75" x2="35" y2="260" stroke="#21262d" stroke-width="1"/>
+  <text x="15" y="85" fill="#484f58" font-family="monospace" font-size="7">1</text>
+  <text x="15" y="97" fill="#484f58" font-family="monospace" font-size="7">2</text>
+  <text x="15" y="109" fill="#484f58" font-family="monospace" font-size="7">3</text>
+  <text x="15" y="121" fill="#484f58" font-family="monospace" font-size="7">4</text>
+  <text x="15" y="133" fill="#484f58" font-family="monospace" font-size="7">5</text>
+  <rect x="10" y="125" width="200" height="12" fill="rgba(255,71,87,0.15)"/>
+  <text x="40" y="85" fill="#c9d1d9" font-family="monospace" font-size="7">pragma solidity</text>
+  <text x="40" y="97" fill="#c9d1d9" font-family="monospace" font-size="7">contract EtherStore {</text>
+  <text x="40" y="121" fill="#c9d1d9" font-family="monospace" font-size="7">mapping(address=&gt;</text>
+  <text x="40" y="133" fill="#ff6b81" font-family="monospace" font-size="7">uint) balances;</text>
+  <!-- Vuln cards -->
+  <rect x="220" y="45" width="170" height="60" fill="#161b22" stroke="#ff4757" rx="4"/>
+  <text x="230" y="62" fill="#ff4757" font-family="sans-serif" font-size="8" font-weight="bold">CRITICAL</text>
+  <text x="230" y="77" fill="#c9d1d9" font-family="sans-serif" font-size="9">Reentrancy</text>
+  <text x="230" y="92" fill="#8b949e" font-family="sans-serif" font-size="7">withdraw() L15-22</text>
+  <!-- Risk gauge -->
+  <rect x="220" y="115" width="170" height="80" fill="#161b22" stroke="#30363d" rx="4"/>
+  <text x="305" y="135" fill="#8b949e" font-family="sans-serif" font-size="8" text-anchor="middle">RISK</text>
+  <circle cx="305" cy="165" r="20" fill="none" stroke="#30363d" stroke-width="4"/>
+  <circle cx="305" cy="165" r="20" fill="none" stroke="#ff4757" stroke-width="4" stroke-dasharray="105 126" stroke-linecap="round" transform="rotate(-90 305 165)"/>
+  <text x="305" y="170" fill="#ff4757" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">82</text>
+  <!-- Placeholder -->
+  <rect x="100" y="252" width="200" height="20" fill="rgba(13,17,23,0.9)" stroke="#30363d" rx="4"/>
+  <text x="200" y="266" fill="#8b949e" font-family="sans-serif" font-size="8" text-anchor="middle">Replace: docs/assets/screenshot-dashboard.png</text>
+</svg>

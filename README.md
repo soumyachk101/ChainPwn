@@ -33,7 +33,7 @@
 ---
 
 <p align="center">
-  <img src="./docs/assets/demo-scan-dashboard.svg" alt="VulnForge Demo — Scan Dashboard" width="800" />
+  <img src="./Docs/assets/demo-scan-dashboard.svg" alt="VulnForge Demo — Scan Dashboard" width="800" />
   <br>
   <i>Upload a contract, watch VulnForge find and exploit vulnerabilities in real-time</i>
 </p>
@@ -194,7 +194,7 @@ flowchart LR
 > The **Vulnerability Agent** sends your contract to Claude AI, which returns a structured JSON report with severity, line numbers, CWE IDs, and remediation tips.
 
 <p align="center">
-  <img src="./docs/assets/demo-analyze.svg" alt="Analyze Phase Demo" width="700" />
+  <img src="./Docs/assets/demo-analyze.svg" alt="Analyze Phase Demo" width="700" />
 </p>
 
 ### Phase 2 — Exploit
@@ -202,7 +202,7 @@ flowchart LR
 > The **Exploit Agent** generates a complete Hardhat exploit script, deploys on local EVM, and streams execution output in real-time via WebSocket.
 
 <p align="center">
-  <img src="./docs/assets/demo-exploit.svg" alt="Exploit Phase Demo" width="700" />
+  <img src="./Docs/assets/demo-exploit.svg" alt="Exploit Phase Demo" width="700" />
 </p>
 
 ### Phase 3 — Patch
@@ -210,7 +210,7 @@ flowchart LR
 > The **Patch Agent** generates a fixed contract using OpenZeppelin patterns, with annotated diffs showing every change.
 
 <p align="center">
-  <img src="./docs/assets/demo-patch-diff.svg" alt="Patch Phase Demo" width="700" />
+  <img src="./Docs/assets/demo-patch-diff.svg" alt="Patch Phase Demo" width="700" />
 </p>
 
 ---
@@ -221,30 +221,30 @@ flowchart LR
 <tr>
 <td align="center" width="50%">
 <b>Landing Page</b><br>
-<img src="./docs/assets/screenshot-landing.svg" alt="Landing Page" width="400"><br>
+<img src="./Docs/assets/screenshot-landing.svg" alt="Landing Page" width="400"><br>
 <sub>Cybersecurity-themed dark UI with animated gradients</sub>
 </td>
 <td align="center" width="50%">
 <b>Scan Dashboard</b><br>
-<img src="./docs/assets/screenshot-dashboard.svg" alt="Scan Dashboard" width="400"><br>
+<img src="./Docs/assets/screenshot-dashboard.svg" alt="Scan Dashboard" width="400"><br>
 <sub>Monaco editor + vulnerability cards + risk gauge</sub>
 </td>
 </tr>
 <tr>
 <td align="center" width="50%">
 <b>Exploit Terminal</b><br>
-<img src="./docs/assets/screenshot-terminal.svg" alt="Exploit Terminal" width="400"><br>
+<img src="./Docs/assets/screenshot-terminal.svg" alt="Exploit Terminal" width="400"><br>
 <sub>Real-time xterm.js output streaming exploit execution</sub>
 </td>
 <td align="center" width="50%">
 <b>Balance Drain Chart</b><br>
-<img src="./docs/assets/screenshot-balance-chart.svg" alt="Balance Drain Chart" width="400"><br>
+<img src="./Docs/assets/screenshot-balance-chart.svg" alt="Balance Drain Chart" width="400"><br>
 <sub>Animated Recharts visualization of fund movement</sub>
 </td>
 </tr>
 </table>
 
-> **Note:** Placeholder SVGs are included — capture your app running locally, save as `.gif`/`.png` in `docs/assets/`, and update the `<img>` tags. See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+> **Note:** Placeholder SVGs are included — capture your app running locally, save as `.gif`/`.png` in `Docs/assets/`, and update the `<img>` tags. See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 
 ---
 
