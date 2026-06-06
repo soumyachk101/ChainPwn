@@ -16,3 +16,7 @@
 4. Place them in `Docs/assets/`
 5. Recommended tools: [Kap](https://getkap.co/) (macOS), [ScreenToGif](https://www.screentogif.com/) (Windows), [Peek](https://github.com/phw/peek) (Linux)
 6. Keep GIFs under 5MB — optimize with [ezgif.com](https://ezgif.com/optimize)
+
+
+## 🤝 Community Feedback
+We value your feedback! Feel free to reach out via issues.
