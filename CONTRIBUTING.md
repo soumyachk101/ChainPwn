@@ -1,22 +1,10 @@
-# Contributing to VulnForge
+# 🤝 Contributing to this Project
 
-## Adding Screenshots & GIFs
+Thank you for contributing! Your help is appreciated.
 
-1. Run VulnForge locally (`backend` + `frontend`)
-2. Capture screenshots/GIFs at 2x resolution (retina) for crisp display
-3. Name files descriptively:
-   - `screenshot-landing.png`
-   - `screenshot-dashboard.png`
-   - `screenshot-terminal.png`
-   - `screenshot-balance-chart.png`
-   - `demo-scan-dashboard.gif`
-   - `demo-analyze.gif`
-   - `demo-exploit.gif`
-   - `demo-patch-diff.gif`
-4. Place them in `Docs/assets/`
-5. Recommended tools: [Kap](https://getkap.co/) (macOS), [ScreenToGif](https://www.screentogif.com/) (Windows), [Peek](https://github.com/phw/peek) (Linux)
-6. Keep GIFs under 5MB — optimize with [ezgif.com](https://ezgif.com/optimize)
+## 🚀 Guidelines
+1. Fork and create a branch.
+2. Add your changes.
+3. Submit a PR.
 
-
-## 🤝 Community Feedback
-We value your feedback! Feel free to reach out via issues.
+*Happy coding!*
